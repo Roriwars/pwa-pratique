@@ -14,7 +14,7 @@ addTechnoForm.addEventListener('submit', evt => {
     
 	// Mettez bien le port qui correspond à votre configuration, ici 3001
     fetch('http://localhost:3001/technos', { 
-            method: 'POST', 
+            method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
